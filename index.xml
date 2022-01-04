@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cacarico&#39;s Blog</title>
+    <link>https://cacarico.github.io/</link>
+    <description>Recent content on Cacarico&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2022 21:29:39 +0100</lastBuildDate><atom:link href="https://cacarico.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Post</title>
+      <link>https://cacarico.github.io/posts/2-second-post/</link>
+      <pubDate>Tue, 04 Jan 2022 21:29:39 +0100</pubDate>
+      
+      <guid>https://cacarico.github.io/posts/2-second-post/</guid>
+      <description>Testing the second post h2 h3 h4 </description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://cacarico.github.io/posts/1-welcome/</link>
+      <pubDate>Tue, 04 Jan 2022 21:21:07 +0100</pubDate>
+      
+      <guid>https://cacarico.github.io/posts/1-welcome/</guid>
+      <description>This is content
+echo bla bla </description>
+    </item>
+    
+  </channel>
+</rss>
