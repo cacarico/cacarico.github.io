@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "GoMonoNerdFont";
+    src: url("/fonts/GoMonoNerdFont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    color: #80579e;
+    font-family: "GoMonoNerdFont", "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply consistent padding to all pages */
+main {
+    /*padding: 30px; /* Uniform padding on all sides */*/
+    /*box-sizing: border-box; /* Ensure padding is included in the width and height */*/
+    border: 2px solid #80579e; /* Purple border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #111; /* Dark gray background */
+}
+
+/* If needed, adjust the homepage padding separately */
+body.home main {
+    padding-top: 30px; /* Same padding for homepage */
+}
+
+/* If needed, adjust the single post page padding separately */
+body.single main {
+    padding: 30px; /* Uniform padding on single post pages */
+    box-sizing: border-box;
+}
+
+/* Navigation Menu */
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    color: #80579e; /* Purple text color */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #111;
+    color: #80579e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #80579e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px #00e0ff; /* Neon glow on hover */
+}
+
+.highlight pre {
+    background-color: #1d1135 !important; /* Darker futuristic purple */
+    color: #f0e6ff; /* Light text color for contrast */
+    border: 1px solid #80579e; /* Border that matches the overall theme */
+    box-shadow: 0 0 15px rgba(128, 87, 158, 0.7); /* Neon glow around the code block */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Additional futuristic effect for buttons */
+button, .button {
+    background-color: #111;
+    border: 2px solid #8a60d6;
+    color: #8a60d6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: "GoMonoNerdFont", "Courier New", Courier, monospace;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(138, 96, 214, 0.7);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #8a60d6;
+    color: #111;
+    box-shadow: 0 0 20px rgba(138, 96, 214, 0.9);
+}
+
+header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    color: #80579e; /* Purple text color */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #111;
+    color: #80579e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #80579e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px #00e0ff; /* Neon glow on hover */
+}
+
+.highlight pre {
+    background-color: #1d1135 !important; /* Darker futuristic purple */
+    color: #f0e6ff; /* Light text color for contrast */
+    border: 1px solid #80579e; /* Border that matches the overall theme */
+    box-shadow: 0 0 15px rgba(128, 87, 158, 0.7); /* Neon glow around the code block */
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Additional futuristic effect for buttons */
+button, .button {
+    background-color: #111;
+    border: 2px solid #8a60d6;
+    color: #8a60d6;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: "GoMonoNerdFont", "Courier New", Courier, monospace;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(138, 96, 214, 0.7);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #8a60d6;
+    color: #111;
+    box-shadow: 0 0 20px rgba(138, 96, 214, 0.9);
+}
+
+header {
+    margin-bottom: 20px; /* Add more space between header and main */
+}
+
+.home {
+  position: relative;
+  overflow: hidden;
+}
+
+.moving-text {
+  position: absolute;
+  left: 0;
+  animation: moveText 4s linear infinite alternate;
+}
+
+@keyframes moveText {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100% - 150px); /* Adjust 150px to the approximate width of your text */
+  }
+}
+
+.welcome {
+  margin-top: 40px;
+}

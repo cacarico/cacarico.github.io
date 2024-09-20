@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on Cacaricos's Mind</title><link>https://blog.cacari.co/categories/development/</link><description>Recent content in Development on Cacaricos's Mind</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 09 Sep 2024 00:31:53 +0200</lastBuildDate><atom:link href="https://blog.cacari.co/categories/development/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://blog.cacari.co/posts/my-first-post/</link><pubDate>Mon, 09 Sep 2024 00:31:53 +0200</pubDate><guid>https://blog.cacari.co/posts/my-first-post/</guid><description>&lt;h1 id="why-to-do-things-like-this">Why to do things like this?&lt;/h1>
+&lt;p>This is the first post of my blog&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>name&lt;span style="color:#f92672">=&lt;/span>caio
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo $name
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> count in &lt;span style="color:#66d9ef">$(&lt;/span>seq &lt;span style="color:#ae81ff">0&lt;/span> 10&lt;span style="color:#66d9ef">)&lt;/span>; &lt;span style="color:#66d9ef">do&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo $count
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">done&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This script is amazing, lets try another language:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-lua" data-lang="lua">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">local&lt;/span> test &lt;span style="color:#f92672">=&lt;/span> vim.lsp.api(server)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
