@@ -22,7 +22,7 @@ body {
 
 /* Apply consistent padding to all pages */
 main {
-    border: 2px solid var(--primary-color);
+    /* border: 2px solid var(--primary-color); */
     border-radius: 10px; /* Rounded corners */
     padding: 20px;
     margin: 20px auto;
@@ -110,6 +110,23 @@ header {
     text-align: center;
     margin: 10px 0;
     margin-bottom: 20px; /* Add more space between header and main */
+}
+
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8em;
+}
+
+.language-switcher a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px var(--highlight-color);
 }
 
 .home {
