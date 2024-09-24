@@ -81,7 +81,7 @@ a:hover {
     background-color: #1d1135 !important; /* Darker futuristic purple */
     color: #f0e6ff; /* Light text color for contrast */
     border: 1px solid var(--primary-color);
-    box-shadow: 0 0 15px rgba(128, 87, 158, 0.7); /* Neon glow around the code block */
+    /* box-shadow: 0 0 15px rgba(128, 87, 158, 0.7); /1* Neon glow around the code block *1/ */
     padding: 15px;
     border-radius: 8px;
     overflow-x: auto;
