@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cacaricos's Mind</title><link>https://blog.cacari.co/</link><description>Recent content on Cacaricos's Mind</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 19 Oct 2024 19:50:26 +0200</lastBuildDate><atom:link href="https://blog.cacari.co/index.xml" rel="self" type="application/rss+xml"/><item><title>Hyprlua</title><link>https://blog.cacari.co/hyprlua-lib/</link><pubDate>Sat, 19 Oct 2024 19:50:26 +0200</pubDate><guid>https://blog.cacari.co/hyprlua-lib/</guid><description>&lt;h1 id="hyprlua">Hyprlua&lt;/h1>
 &lt;p>Hyprlua aims to end my frustration with configuring Hyprland using its configuration file.
-You can find the project at &lt;a href="https://github.com/cacarico/hyprlua">https://github.com/cacarico/hyprlua&lt;/a>&lt;/p>
+You can find the project at &lt;a href="https://github.com/cacarico/hyprlua">Hyprlua&lt;/a> and the documentation at &lt;a href="https://hyprlua.cacari.co">Hyprlua Docs&lt;/a>&lt;/p>
 &lt;h4 id="features">Features&lt;/h4>
 &lt;p>This project currently supports only the features I use from Hyprland, suggestions and contributions are highly enouraged.&lt;/p>
 &lt;h5 id="currently-supported">Currently Supported&lt;/h5>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Support for binds&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Support for general config&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Binds&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> General config&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Monitors&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Workspaces (supported currently by monitors)&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Decoration&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Blur&lt;/li>
 &lt;/ul>
 &lt;h5 id="soon-to-be-supported">Soon to be supported&lt;/h5>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Support for submaps in binds&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Monitor configuration&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Setup startup executions&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Submaps in binds&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Startup scripts&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Exec-once&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Inputs&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Monitors&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Touchpad&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Touchdevice&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Tablet&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Gestures&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Group&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Groupbar&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Misc&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Cursor&lt;/li>
 &lt;/ul>
 &lt;h4 id="using">Using&lt;/h4>
 &lt;p>Create a hyprland.lua file&lt;/p></description></item><item><title>Growing</title><link>https://blog.cacari.co/growing/</link><pubDate>Tue, 17 Sep 2024 20:28:17 +0200</pubDate><guid>https://blog.cacari.co/growing/</guid><description>&lt;p>This is a placeholder post&lt;/p></description></item><item><title>Techno Haze Tmux</title><link>https://blog.cacari.co/techno-haze-tmux/</link><pubDate>Sat, 14 Sep 2024 15:40:28 +0200</pubDate><guid>https://blog.cacari.co/techno-haze-tmux/</guid><description>&lt;h1 id="techno-haze-tmux">Techno Haze Tmux&lt;/h1>
